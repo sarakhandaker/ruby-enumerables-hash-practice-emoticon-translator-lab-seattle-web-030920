@@ -20,7 +20,7 @@ end
 def get_japanese_emoticon (path, emo)
   n=load_library(path)
   jap_emo= n[:get_emoticon][emo]
-  "Sorry, that emoticon was not found" if jap_emo=nil
+  "Sorry, that emoticon was not found" if jap_emo==nil
   jap_emo
 end
 
@@ -29,6 +29,6 @@ def get_english_meaning (path, emo)
   
   meaning=n[:get_meaning][emo]
   
-  "Sorry, that emoticon was not found" if meaning=nil
+  "Sorry, that emoticon was not found" if meaning==nil
   meaning
 end
