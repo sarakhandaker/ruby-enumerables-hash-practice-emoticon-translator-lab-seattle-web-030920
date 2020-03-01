@@ -9,7 +9,7 @@ get_emoticon={}
 
 n.each_key{|word|
   get_meaning[n[word][1]]=word
-  get_emoticon[n[word][0]]=n[word]
+  get_emoticon[n[word][0]]=n[word][1]
 }
 newhash[:get_meaning]=get_meaning
 newhash[:get_emoticon]=get_emoticon
