@@ -5,8 +5,8 @@ def load_library (path)
   n=YAML.load_file(path)
 newhash={}
 n.each_key do |word|
-newhash[:get_meaning]=word
-newhash[:get_emoticon]=n[word]]
+newhash[word][:get_meaning]=word
+newhash[word][:get_emoticon]=n[word]]
 end
 binding.pry
 newhash
