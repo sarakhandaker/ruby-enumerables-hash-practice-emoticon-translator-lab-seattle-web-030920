@@ -11,7 +11,6 @@ e[word]= n[word]
 }
 newhash={:get_meaning=>j,
 :get_emoticon=>e}
-binding.pry
 end
 
 def get_japanese_emoticon (path, emo)
