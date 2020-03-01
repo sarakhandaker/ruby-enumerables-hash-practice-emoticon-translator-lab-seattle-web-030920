@@ -22,9 +22,10 @@ def get_japanese_emoticon (path, emo)
   jap_emo= n[:get_emoticon][emo]
   
   if jap_emo
-  
-else
   jap_emo
+else
+  "Sorry, that emoticon was not found" 
+end
 end
 
 def get_english_meaning (path, emo)
