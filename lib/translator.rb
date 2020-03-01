@@ -3,13 +3,13 @@ require "yaml"
 require "pry"
 def load_library (path)
   n=YAML.load_file(path)
-
 newhash={}
 n.each_key{|word|
 newhash[key][:get_meaning=>word]
 newhash[key][:get_emoticon=>n[word]]
 }
 binding.pry
+newhash
 end
 
 def get_japanese_emoticon (path, emo)
