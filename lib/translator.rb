@@ -28,5 +28,5 @@ def get_english_meaning (path, emo)
   
   meaning=n[:get_meaning][emo]
   
-  "Sorry, that emoticon was not found" if jap_emo=nil
+  "Sorry, that emoticon was not found" if meaning=nil
 end
