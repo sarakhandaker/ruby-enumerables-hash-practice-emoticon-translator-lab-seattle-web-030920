@@ -4,7 +4,7 @@ require "pry"
 def load_library (path)
   n=YAML.load_file(path)
 binding.pry
-
+newhash={}
 n.each_key{|word|
 newhash[key][:get_meaning=>word]
 newhash[key][:get_emoticon=>n[word]]
