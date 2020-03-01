@@ -19,8 +19,8 @@ end
 
 def get_japanese_emoticon (path, emo)
   n=load_library(path)
-jap_emo=nil
   jap_emo= n[:get_emoticon][emo]
+  binding.pry
   "Sorry, that emoticon was not found" if jap_emo=nil
 end
 
