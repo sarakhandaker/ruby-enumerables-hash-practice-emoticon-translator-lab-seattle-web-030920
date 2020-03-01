@@ -6,7 +6,7 @@ def load_library (path)
 newhash={}
 n.each_key do |word|
 newhash[:get_meaning]=word
-newhash][:get_emoticon]=n[word]
+newhash[:get_emoticon]=n[word]
 end
 binding.pry
 newhash
