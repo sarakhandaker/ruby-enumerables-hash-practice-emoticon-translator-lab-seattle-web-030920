@@ -2,13 +2,14 @@
 require "yaml"
 require "pry"
 def load_library (path)
-  n=YAML.load_file(path)
+n=YAML.load_file(path)
 newhash={}
 get_meaning={}
 get_emoticon={}
+
 n.each_key{|word|
-get_meaning[word]=word
-get_emoticon[word]=n[word]
+  get_meaning[n[word][1]=word
+  get_emoticon[word][0]=n[word]
 }
 newhash[:get_meaning]=get_meaning
 newhash[:get_emoticon]=get_emoticon
