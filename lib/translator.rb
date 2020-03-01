@@ -3,8 +3,8 @@ require "yaml"
 require "pry"
 def load_library (path)
   n=YAML.load_file(path)
-j=[]
-e=[]
+j={}
+e={}
 n.each_key{|word|
 j<< n[word]=> word
 e<< word=> n[word]
