@@ -6,8 +6,8 @@ def load_library (path)
 j={}
 e={}
 n.each_key{|word|
-j<< n[word]=> word
-e<< word=> n[word]
+j[n[word]]= word
+e[word]= n[word]
 }
 newhash={:get_meaning=>j,
 :get_emoticon=>e}
