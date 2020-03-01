@@ -6,8 +6,8 @@ def load_library (path)
 binding.pry
 n.each_key{|word|
 
-newhash={:get_meaning=>,
-:get_emoticon=>}
+#newhash={:get_meaning=>,
+#:get_emoticon=>}
 
 }
 
