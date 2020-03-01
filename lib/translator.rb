@@ -22,6 +22,7 @@ def get_japanese_emoticon (path, emo)
   jap_emo= n[:get_emoticon][emo]
   binding.pry
   "Sorry, that emoticon was not found" if jap_emo=nil
+  jap_emo
 end
 
 def get_english_meaning (path, emo)
@@ -30,4 +31,5 @@ def get_english_meaning (path, emo)
   meaning=n[:get_meaning][emo]
   
   "Sorry, that emoticon was not found" if meaning=nil
+  meaning
 end
