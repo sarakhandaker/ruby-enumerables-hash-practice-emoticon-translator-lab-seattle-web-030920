@@ -9,8 +9,6 @@ n.each_key{|word|
 newhash={:get_meaning=>,
 :get_emoticon=>}
 
-
-
 }
 
 end
