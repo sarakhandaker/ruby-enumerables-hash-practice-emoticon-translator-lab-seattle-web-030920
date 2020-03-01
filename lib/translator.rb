@@ -20,7 +20,10 @@ end
 def get_japanese_emoticon (path, emo)
   n=load_library(path)
   jap_emo= n[:get_emoticon][emo]
-  "Sorry, that emoticon was not found" if jap_emo==nil
+  
+  if jap_emo
+  
+else
   jap_emo
 end
 
