@@ -12,7 +12,7 @@ get_emoticon[word]=n[word]
 }
 newhash[:get_meaning]=get_meaning
 newhash[:get_emoticon]=get_emoticon
-binding.pry
+
 newhash
 end
 
